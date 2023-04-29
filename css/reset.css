@@ -23,20 +23,18 @@ ul,ol{
 address{
 	font-style: normal;
 }
-
 table{
-			border-collapse: collapse;
-		}
+	border-collapse: collapse;
+	}
 input,select,textarea,label,button{
 	outline:none;
 	display: inline-block;
 	background:none;
 }
-
 /* float解除用 */
 .clearfix::after {
-   content: "";
-   display: block;
-   clear: both;
+  content: "";
+  display: block;
+  clear: both;
 }
 
