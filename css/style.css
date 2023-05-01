@@ -4,6 +4,9 @@ header{
   height: 100px;
   background: #f00;
 }
+main{
+  width: 400px;
+}
 .green{
   width: 150px;
   height: 250px;
@@ -14,7 +17,7 @@ header{
   width: 250px;
   height: 250px;
   background: #3300ff;
-  float: left;
+  float: right;
 }
 footer{
   width: 400px;
