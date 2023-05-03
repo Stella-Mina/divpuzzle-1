@@ -17,10 +17,16 @@ main{
   width: 250px;
   height: 250px;
   background: #3300ff;
-  float: right;
+  float: left;
 }
 footer{
   width: 400px;
   height: 100px;
   background: #ffe600;
+}
+/* float解除用 */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
